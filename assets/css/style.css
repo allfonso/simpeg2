@@ -1,0 +1,115 @@
+*{
+	font-size:12px;
+}
+body {
+    font-family: Tahoma;
+    padding:20px;
+    font-size:12px;
+    margin:0;
+    background: url('../img/bg-body.jpg');
+}
+h2 {
+    font-size:18px;
+    font-weight:bold;
+    margin:0;
+    margin-bottom:15px;
+}
+
+hr {
+    border-bottom: 1px solid #AED0EA;
+    border-top: 0px;
+}
+
+.demo-info{
+	padding:0 0 12px 0;
+}
+.demo-tip{
+	display:none;
+}
+.tabcontent {
+    padding: 2px;
+}
+
+#left {
+    float:left;
+    width: 50%;
+}
+
+#right {
+    float:right;
+    width: 45%;
+}
+
+.clear {
+    clear: both;
+}
+
+#footer-login {
+    padding: 10px;
+    text-align: center;
+    font-size: 11px;
+}
+
+#logo-login {
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+.tabs-header, .tabs-panels {
+    border:none !important;
+}
+
+fieldset {
+    border: 1px solid #aed0ea;
+}
+
+fieldset > legend {
+    color: #2779aa;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float:right;
+}
+
+.logoutbutton {
+    background: #fff3f3 !important;
+    border: 1px solid #ffa8a8 !important;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.logout {
+    position: absolute;
+    top:15px;
+    right: 10px;
+    font-size: 11px;
+}
+
+.footertext {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.padding2px {
+    padding: 5px;
+}
+
+#table-listing {
+    border-collapse: collapse;
+}
+
+#table-listing a {
+    color: #2779AA;
+    text-decoration: none;
+}
+
+.toolbar {
+    padding: 10px 5px !important;
+}

@@ -1,0 +1,60 @@
+/**
+ * Kategori
+ **/
+#add-category {
+    border-top: 2px solid #e0e0e0;
+    border-bottom: 2px solid #e0e0e0;
+    background-color: #f9f9f9;
+    padding: 15px 8px;
+}
+
+#kategori .ns-item {
+    height: 34px;
+    line-height: 34px;
+    width: 420px;
+    padding-left: 10px;
+    background-color: #fcfcfc;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+}
+#kategori li {
+    margin: 8px 0;
+}
+
+#kategori .ns-item:after {
+  clear: both;
+  display: table;
+  content: " ";
+}
+#kategori .ns-item:hover {
+    cursor: move;
+}
+#kategori .ns-title {
+    float: left;
+}
+#kategori .ns-actions {
+    float: right;
+}
+#kategori .ns-title i {
+    color: #777777;
+    margin-right: 6px;
+}
+#kategori .ns-actions a {
+    color: #444444;
+    float: left;
+    width: 32px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border-left: 1px solid #e6e6e6;
+}
+#kategori .ns-actions a:hover {
+    color: #222222;
+    background-color: #eeeeee;
+}
+
+.ns-helper {
+    border: 1px dashed #bccad1;
+    background-color: #ecf6fc;
+    width: 420px;
+}
